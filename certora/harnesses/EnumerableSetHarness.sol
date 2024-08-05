@@ -2,7 +2,8 @@
 
 pragma solidity ^0.8.20;
 
-import {EnumerableSet} from "../patched/utils/structs/EnumerableSet.sol";
+// import {EnumerableSet} from "../patched/utils/structs/EnumerableSet.sol";
+import {EnumerableSet} from "../../contracts/utils/structs/EnumerableSet.sol";
 
 contract EnumerableSetHarness {
     using EnumerableSet for EnumerableSet.Bytes32Set;

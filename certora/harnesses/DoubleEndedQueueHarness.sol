@@ -1,7 +1,8 @@
 // SPDX-License-Identifier: MIT
 pragma solidity ^0.8.20;
 
-import {DoubleEndedQueue} from "../patched/utils/structs/DoubleEndedQueue.sol";
+// import {DoubleEndedQueue} from "../patched/utils/structs/DoubleEndedQueue.sol";
+import {DoubleEndedQueue} from "../../contracts/utils/structs/DoubleEndedQueue.sol";
 
 contract DoubleEndedQueueHarness {
     using DoubleEndedQueue for DoubleEndedQueue.Bytes32Deque;

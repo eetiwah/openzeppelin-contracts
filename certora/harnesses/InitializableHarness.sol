@@ -1,7 +1,8 @@
 // SPDX-License-Identifier: MIT
 pragma solidity ^0.8.20;
 
-import {Initializable} from "../patched/proxy/utils/Initializable.sol";
+// import {Initializable} from "../patched/proxy/utils/Initializable.sol";
+import {Initializable} from "../../contracts/proxy/utils/Initializable.sol";
 
 contract InitializableHarness is Initializable {
     function initialize()           public initializer      {}
