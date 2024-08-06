@@ -2,8 +2,8 @@
 
 pragma solidity ^0.8.20;
 
-import {Test} from "forge-std/Test.sol";
-import {Create2} from "@openzeppelin/contracts/utils/Create2.sol";
+import {Test} from "../../../forge-std/src/Test.sol";
+import {Create2} from "../../contracts/utils/Create2.sol";
 
 contract Create2Test is Test {
     function testSymbolicComputeAddressSpillage(bytes32 salt, bytes32 bytecodeHash, address deployer) public {

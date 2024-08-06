@@ -3,9 +3,9 @@
 
 pragma solidity ^0.8.20;
 
-import {Test} from "forge-std/Test.sol";
-import {SymTest} from "halmos-cheatcodes/SymTest.sol";
-import {SlotDerivation} from "@openzeppelin/contracts/utils/SlotDerivation.sol";
+import {Test} from "../../../forge-std/src/Test.sol";
+import {SymTest} from "../../../halmos-cheatcodes/src/SymTest.sol";
+import {SlotDerivation} from "../../contracts/utils/SlotDerivation.sol";
 
 contract SlotDerivationTest is Test, SymTest {
     using SlotDerivation for bytes32;

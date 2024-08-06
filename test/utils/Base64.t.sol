@@ -2,8 +2,8 @@
 
 pragma solidity ^0.8.20;
 
-import {Test} from "forge-std/Test.sol";
-import {Base64} from "@openzeppelin/contracts/utils/Base64.sol";
+import {Test} from "../../../forge-std/src/Test.sol";
+import {Base64} from "../../contracts/utils/Base64.sol";
 
 contract Base64Test is Test {
     function testEncode(bytes memory input) external {

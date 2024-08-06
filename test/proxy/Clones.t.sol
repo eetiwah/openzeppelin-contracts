@@ -2,8 +2,8 @@
 
 pragma solidity ^0.8.20;
 
-import {Test} from "forge-std/Test.sol";
-import {Clones} from "@openzeppelin/contracts/proxy/Clones.sol";
+import {Test} from "../../../forge-std/src/Test.sol";
+import {Clones} from "../../contracts/proxy/Clones.sol";
 
 contract ClonesTest is Test {
     function getNumber() external pure returns (uint256) {

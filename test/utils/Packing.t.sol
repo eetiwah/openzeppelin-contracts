@@ -3,8 +3,8 @@
 
 pragma solidity ^0.8.20;
 
-import {Test} from "forge-std/Test.sol";
-import {Packing} from "@openzeppelin/contracts/utils/Packing.sol";
+import {Test} from "../../../forge-std/src/Test.sol";
+import {Packing} from "../../contracts/utils/Packing.sol";
 
 contract PackingTest is Test {
     using Packing for *;

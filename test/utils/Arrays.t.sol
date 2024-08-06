@@ -2,9 +2,9 @@
 
 pragma solidity ^0.8.20;
 
-import {Test} from "forge-std/Test.sol";
-import {SymTest} from "halmos-cheatcodes/SymTest.sol";
-import {Arrays} from "@openzeppelin/contracts/utils/Arrays.sol";
+import {Test} from "../../../forge-std/src/Test.sol";
+import {SymTest} from "../../../halmos-cheatcodes/src/SymTest.sol";
+import {Arrays} from "../../contracts/utils/Arrays.sol";
 
 contract ArraysTest is Test, SymTest {
     function testSort(uint256[] memory values) public {

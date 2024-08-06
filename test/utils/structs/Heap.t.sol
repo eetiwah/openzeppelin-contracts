@@ -3,10 +3,10 @@
 
 pragma solidity ^0.8.20;
 
-import {Test} from "forge-std/Test.sol";
-import {Math} from "@openzeppelin/contracts/utils/math/Math.sol";
-import {Heap} from "@openzeppelin/contracts/utils/structs/Heap.sol";
-import {Comparators} from "@openzeppelin/contracts/utils/Comparators.sol";
+import {Test} from "../../../../forge-std/src/Test.sol";
+import {Math} from "../../../contracts/utils/math/Math.sol";
+import {Heap} from "../../../contracts/utils/structs/Heap.sol";
+import {Comparators} from "../../../contracts/utils/Comparators.sol";
 
 contract Uint256HeapTest is Test {
     using Heap for Heap.Uint256Heap;
